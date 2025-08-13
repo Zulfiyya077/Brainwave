@@ -1,0 +1,24 @@
+.class {
+  font-size: 50px;
+  color: rgb(242, 242, 244);
+  background-color: rgb(76, 138, 121);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid pink;
+  border-radius: 15px;
+}
+.aclass {
+  font-size: 50px;
+  color: rgb(242, 242, 244);
+  background-color: rgb(218, 186, 5);
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
+  border: 5px solid pink;
+  border-radius: 15px;
+}

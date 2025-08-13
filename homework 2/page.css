@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: table;
+  width: 100%;
+  background-color: #4baf4f;
+}
+/* <!-- Company Logo --> */
+.company-area {
+  width: 40%;
+  float: left;
+  padding: 15px;
+  padding-left: 100px;
+  font-style: italic;
+}
+.company-area h1 {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0;
+  display: inline-block;
+}
+/* <!-- Navigation Links --> */
+.navigation {
+  background-color: #4baf4f;
+  width: 60%;
+  float: left;
+}
+.nav-links {
+  width: 100%;
+  margin: 0% auto;
+  padding: 20px 0;
+  font-size: 24px;
+}
+.nav-link {
+  display: inline;
+  list-style: none;
+  padding: 0 40px;
+  border-right: 1px solid black;
+}
+.nav-link a {
+  color: black;
+}
+
+.nav-link:last-child {
+  border-right: none;
+}
+.higeeks {
+  height: 140px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+}
+.line {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  border: none;
+}
+.main-line {
+  background-color: #6ea470;
+  height: 1px;
+  width: 5%;
+  border: none;
+  margin: 0 auto;
+}
+/* <!-- Aboutme section --> */
+.aboutMe {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 60px;
+  text-align: center;
+  font-size: 40px;
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+.aboutMe-main {
+  width: 100%;
+  margin-top: 6%;
+}
+.green-header {
+  background-color: black;
+  color: #4cae54;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.img-container {
+  float: left;
+  width: 38%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.text {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  margin: 0px;
+  font-size: 30px;
+}
+.text p {
+  margin-bottom: 20px;
+}
+.GeeksForGeeks {
+  font-weight: bold;
+  display: block;
+}
+/* <!-- Projects section --> */
+.projects-main {
+  width: 100%;
+  padding: 100px;
+  background-color: #c2bfc2;
+}
+.black-main {
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.projects-line {
+  background-color: rgb(0, 0, 0);
+  height: 1px;
+  width: 5%;
+  border: none;
+  margin: 0 auto;
+}
+.projects {
+  margin-top: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-lists {
+  float: left;
+  width: 30%;
+  padding: 2%;
+  box-sizing: border-box;
+  font-size: 35px;
+}
+.projects-item {
+  margin-left: 40%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.logo-wrapper {
+  float: left;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 2%;
+  margin-left: 20%;
+}
+
+.logo {
+  width: 700px;
+  height: auto;
+  margin-top: 75%;
+}
+/* <!-- Achievments section --> */
+.achievements-main {
+  padding-top: 5%;
+  background-color: black;
+}
+.achievements {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 5%;
+}
+.achievements-list {
+  width: 100%;
+  padding: 40px;
+  padding-left: 10%;
+  font-size: 30px;
+}
+.achievements-list ul {
+  list-style-type: circle;
+  padding-left: 60px;
+}
+
+.achievement-item {
+  margin-bottom: 10px;
+}
+.achievement-item a {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+/* <!-- Contact section --> */
+.contact {
+  width: 100%;
+  background-color: #c2bfc2;
+  padding: 5%;
+}
+
+.form-box {
+  background-color: black;
+  color: white;
+  width: 700px;
+  height: 500px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.name-group {
+  width: 100%;
+  font-size: 30px;
+}
+.name-group input {
+  width: 58%;
+}
+.email-group {
+  width: 100%;
+  font-size: 30px;
+}
+.email-group input {
+  width: 58%;
+}
+.number-group {
+  width: 100%;
+  font-size: 30px;
+}
+.number-group input {
+  width: 35%;
+  height: 100%;
+}
+.message-group {
+  width: 100%;
+  font-size: 30px;
+  height: 50px;
+}
+.form-box .message-group label {
+  display: inline-block;
+  width: 30%;
+}
+.message-group textarea {
+  width: 58%;
+  height: 100px;
+  padding-top: 30px;
+  font-size: 15px;
+}
+.button-group {
+  float: right;
+  width: 69%;
+  margin-top: 50px;
+}
+.button-group button {
+  width: 22%;
+  height: 32px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.form-box label {
+  display: inline-block;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.margin-bottom {
+  margin-bottom: 40px;
+}
+.form-box input,
+.form-box textarea {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.form-box input {
+  padding: 5px;
+  font-size: 14px;
+}
+/* <!-- Footer area --> */
+.footer-nav {
+  background-color: #4baf4f;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.footer-links {
+  width: 100%;
+  margin: 0% auto;
+  padding: 20px 0;
+  font-size: 24px;
+}
+.footer-link {
+  display: inline;
+  list-style: none;
+  padding: 0 60px;
+  border-right: 1px solid black;
+}
+.footer-link a {
+  color: black;
+}
+.footer-link:last-child {
+  border-right: none;
+}
+.footer-text {
+  color: #4baf4f;
+  background-color: black;
+  padding: 20px;
+  font-size: 30px;
+  padding-left: 5%;
+  float: left;
+}
+.footer-logo {
+  color: #4baf4f;
+  background-color: black;
+  font-size: 40px;
+  padding: 20px;
+  text-align: end;
+  padding-right: 8%;
+  font-weight: bold;
+}
