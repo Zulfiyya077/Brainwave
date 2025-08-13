@@ -64,3 +64,40 @@ a++;
 console.log("Incremented a:", a);
 b--;
 console.log("Decremented b:", b);
+
+var a = 10;
+a = a + 5;
+console.log(a);
+
+var b = 80;
+var c = 100;
+c = b - c;
+console.log(c);
+
+//*! JavaScript Assigment Operators:
+// =	x = y	x = y
+// +=	x += y	x = x + y
+// -=	x -= y	x = x - y
+// *=	x *= y	x = x * y
+// **=	x **= y	x = x ** y
+// /=	x /= y	x = x / y
+// %=	x %= y	x = x % y
+
+var y = 14;
+
+// y = y + 10;
+y += 10;
+
+console.log(y);
+
+//*! Comparison Operators
+
+// ==	equal to
+// ===	equal value and equal type
+// !=	not equal
+// !==	not equal value or not equal type
+// >	greater than
+// <	less than
+// >=	greater than or equal to
+// <=	less than or equal to
+// ?    ternary operators

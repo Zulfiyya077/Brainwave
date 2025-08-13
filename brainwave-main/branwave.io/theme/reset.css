@@ -1,0 +1,59 @@
+/* Temel reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML5 elementlerini blok gibi davranmaları için */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Varsayılan fontlar ve renkler */
+body {
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Liste işaretlerini kaldır */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Bağlantılardan alt çizgiyi kaldır */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form elemanları */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Resimler taşmasın */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

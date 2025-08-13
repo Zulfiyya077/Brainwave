@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --secondary-color: #fb6d45;
+}
+:root {
+  --main-color: #ffffff;
+  --main-bg-color: #161c2d;
+  --secondary-font: 19px;
+  --secondary-font-weight: 400;
+  --secondary-font-line-height: 32px;
+  --title-font: 36px;
+  --font-weight: 700;
+  --line-height: 48px;
+  --job-title-font: 21px;
+  --job-title-font-weight: 700;
+  --job-title-line-height: 32px;
+  --job-description-font-2: 17px;
+  --job-description-font-weight: 400;
+  --job-description-line-height: 29px;
+  --little-font: 15px;
+  --little-font-weight: 400;
+  --job-description-line-height: 26px;
+  --primary-text: #2c3e50;
+  --secondary-text: #7f8c8d;
+  --accent-blue: #3498db;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+  --dark-footer: rgba(22, 28, 45, 1);
+  --container-width: 1600px;
+  --section-padding: 120px 0;
+  --border-radius: 16px;
+  --small-radius: 8px;
+  --image-width: 224px;
+  --image-height: 275px;
+  --font-size-xl: 56px;
+  --font-size-lg: 48px;
+  --font-size-md: 20px;
+  --font-size-sm: 18px;
+  --font-size-xs: 16px;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --line-height-tight: 1.3;
+  --line-height-normal: 1.6;
+}
